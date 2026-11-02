@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Raw/private or not-yet-reviewed datasets
+data/raw/**
+!data/raw/**/.gitkeep
+data/interim/**
+!data/interim/**/.gitkeep
+data/processed/**
+!data/processed/**/.gitkeep
+data/legacy/**
+!data/legacy/**/.gitkeep
+
+# Generated artifacts
+checkpoints/**
+!checkpoints/.gitkeep
+outputs/**
+!outputs/**/.gitkeep
+
+# Local staging
+incoming_files/
+*.log
+.DS_Store
+Thumbs.db
